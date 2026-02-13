@@ -82,16 +82,15 @@ function App() {
             <div>
               <h1 className=' text-[#000000]'>Hello Evano 👋🏼,</h1>
             </div>
-            <div className='relative flex flex-row items-center' >
-              <div className='w-fit z-20 flex pl-10 pr-4 pt-2.5 pb-1.75 outline-none bg-white rounded-xl shadow-[0px_10px_0px_60px_0px_rgba(226,236,249,0.5)] '>
-                <Search />
-                <input type="text" placeholder='search'
-                  className=' '
-                />
-              </div>
+                <div className='relative flex flex-row items-center' >
+                  <div className='w-fit z-20 -mr-8'>
+                    <Search />
+                  </div>
 
-
-            </div>
+                  <input type="text" placeholder='search'
+                    className='pl-10 pr-4 pt-2.5 pb-1.75 text-[12px] outline-none bg-white rounded-xl shadow-[0px_10px_0px_60px_0px_rgba(226,236,249,0.5)] '
+                  />
+                </div>
           </div>
 
           <div className='bg-white rounded-2xl mt-10 w-full pt-7.75 pb-8.25 pl-12.5' >
